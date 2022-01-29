@@ -7,4 +7,4 @@
 let cardNumber = prompt("Write your credit card number, please (14 numbers): ");
 let hideNumber = cardNumber.slice(10);
 
-console.log("**********" + hideNumber);
+alert("**********" + hideNumber);
