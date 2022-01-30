@@ -3,5 +3,5 @@
 */
 
 let string = "ddd@bbb@ccc";
-let result = string.replace(/@/g, "!");
+let result = string.replaceAll("@", "!");
 console.log(result);

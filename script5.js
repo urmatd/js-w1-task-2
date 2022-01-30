@@ -4,7 +4,7 @@
 Пример: "Номер вашей карты: **********1245"
 */
 
-let cardNumber = prompt("Write your credit card number, please (14 numbers): ");
-let hideNumber = cardNumber.slice(10);
+let cardNumber = prompt("Write your credit card number, please (16 numbers): ");
+let hideNumber = cardNumber.replace(cardNumber.slice(0, -4), "************");
 
-alert("**********" + hideNumber);
+alert("This is you card number: " + hideNumber);
